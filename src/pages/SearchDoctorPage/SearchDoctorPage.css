@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.doctor-search {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    gap: 1.5vh
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    border-radius: .5rem;
+}
+
+.submit-doctor {
+    height: 5vh;
+    border-radius: 0.5rem;
+}

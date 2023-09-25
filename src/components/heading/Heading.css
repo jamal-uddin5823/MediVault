@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    max-height: 10vh;
+    padding: 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-end;
+}
+
+.signup {
+    margin: 0rem 0.5rem;
+}
+.login {
+    margin: 0rem 0.5rem;
+}
