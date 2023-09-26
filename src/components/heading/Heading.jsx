@@ -4,9 +4,9 @@ function Heading() {
     <>
     <div className="heading">
         <h1 className="title">MediVault</h1>
-        <div className="buttons">
-            <button className="signup">Signup</button>
-            <button className="login">Login</button>
+        <div className="buttons-div">
+            <button className="signup button">Signup</button>
+            <button className="login button">Login</button>
         </div>
     </div>
     </>

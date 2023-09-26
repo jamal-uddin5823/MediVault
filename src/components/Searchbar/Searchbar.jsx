@@ -5,6 +5,9 @@ import './Searchbar.css'
 
 import {Multiselect} from 'multiselect-react-dropdown'
 
+import SpeechIcon from '../../assets/voice-icon.png';
+import StopIcon from '../../assets/stop-rec-icon.png';
+
 function Searchbar() {
   const data = [
     {Symptom: 'Fever',id:1},
@@ -104,8 +107,9 @@ function Searchbar() {
             placeholder='Enter your symptoms' />
           
           <div className="diagnose-buttons">
-          <button className="voice-input" onClick={toggleRecognition}>
-            {isRecognitionActive? "Stop":"Voice"}
+          <button className="symptom-submit voice-input" onClick={toggleRecognition}>
+                {isRecognitionActive? 
+                  <img src={StopIcon} />: <img src={SpeechIcon} />}
           </button>
             <button className="symptom-submit" onClick={handleSubmit}>Diagnose</button>
           </div>
