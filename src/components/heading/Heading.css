@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import '../../variables.css';
 
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-:root {
-    --primary-color: #164B60;
-    --secondary-color: #1B6B93;
-    --accent-color: #f0f0f0;
-}
+
 
 .heading {
     display: flex;

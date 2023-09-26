@@ -1,11 +1,9 @@
+@import '../../variables.css';
+
 * {
     box-sizing: border-box;
 }
-:root {
-    --primary-color: #164B60;
-    --secondary-color: #1B6B93;
-    --accent-color: #f0f0f0;
-}
+
 
 .navbar {
     display: flex;
