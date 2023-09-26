@@ -1,0 +1,54 @@
+@import '../../variables.css';
+
+
+*{ 
+    box-sizing: border-box;
+}
+
+.about-wrapper {
+    background-color: var(--primary-color);
+    margin: none;
+}
+.about-container {
+    display: flex;
+    padding: 1em;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.section-about {
+    padding: 1em 0em;
+    /* background-color: var(--primary-color); */
+    margin: 1em 0.5em;
+    padding: 0.5em;
+    border-radius: 2em;
+    /* border-bottom: 0.1em solid var(--primary-color); */
+}
+
+.title-about {
+    color: var(--primary-color);
+    font-size: 2.5em;
+    border-bottom: 0.1em solid var(--primary-color);
+}
+
+.subtitle-about {
+    color: var(--accent-color);
+    font-size: 1.75em;
+}
+
+.desc-about {
+    font-weight: 500;
+    color: var(--accent-color);
+}
+
+.about-container ul {
+    margin-bottom: 20px;
+  }
+  
+  .about-container ul li {
+    list-style: disc;
+    margin-left: 20px;
+    color: var(--accent-color);
+  }
+  

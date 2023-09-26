@@ -5,8 +5,8 @@ import './Searchbar.css'
 
 import {Multiselect} from 'multiselect-react-dropdown'
 
-import SpeechIcon from '../../assets/voice-icon.png';
-import StopIcon from '../../assets/stop-rec-icon.png';
+import SpeechIcon from '../../assets/images/voice-icon.png';
+import StopIcon from '../../assets/images/stop-rec-icon.png';
 
 function Searchbar() {
   const data = [

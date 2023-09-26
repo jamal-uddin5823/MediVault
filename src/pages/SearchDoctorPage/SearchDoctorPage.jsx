@@ -21,8 +21,8 @@ function SearchDoctorPage() {
 
   return (
     <>
-    <h2></h2>
-    <form className="doctor-search">
+    <div className="doctor-search">
+      <h2 className='doctor-title'>Enter doctor details</h2>
       <input 
         type='text' 
         placeholder='Enter speciality'
@@ -35,7 +35,7 @@ function SearchDoctorPage() {
         onChange={handleLocationChange}
          />
       <button className="submit-doctor" onClick={handleShowValues}>Search</button>
-    </form>
+    </div>
 
     {showValues && (
       <>

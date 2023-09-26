@@ -42,8 +42,8 @@
 
 .symptom-multiselect {
   background-color: var(--accent-color);
+  width: 70vw;
+  align-self: center;
+  justify-self: center;
   /* border-radius: 2rem; */
 }
-
-
-

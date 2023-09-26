@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom'
 import './Heading.css'
 function Heading() {
   return (
     <>
     <div className="heading">
-        <h1 className="title">MediVault</h1>
+        <Link to='/' className="title">MediVault</Link>
         <div className="buttons-div">
             <button className="signup button">Signup</button>
             <button className="login button">Login</button>

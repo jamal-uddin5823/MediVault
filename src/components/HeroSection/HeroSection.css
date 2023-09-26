@@ -1,0 +1,75 @@
+@import '../../variables.css';
+
+* {
+    box-sizing: border-box;
+}
+
+.hero-section {
+    height: 100vh;
+    padding: 1.5em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--primary-color);
+}
+
+.title-hero {
+    text-align: center;
+    font-size: 4em;
+    font-weight: 900;
+    color: var(--primary-color);
+    margin-bottom: 7vh;
+    margin-top: 3vh;
+}
+.sub-title-hero {
+    font-size: 3em;
+    text-align: right;
+    color: var(--primary-color);
+}
+
+.desc {
+    justify-self: flex-end;
+    text-align: right;
+    font-size: 1em;
+    padding: 1rem 0rem 0rem 2rem;
+}
+
+.img-n-desc {
+    padding: 1em 0.25em;
+    display: flex;
+    flex: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.sub-title-n-desc {
+    padding: 3vw;
+    width: 45vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    /* gap: 2vh; */
+}
+
+
+
+.front-illus-div {
+    height: 60vh;
+    width: 45vw;
+}
+
+.illus {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.cta-button {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,53 @@
+@import '../../variables.css';
+
+* {
+    box-sizing: border-box;
+}
+
+.services-section {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    border-bottom: 0.1rem solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    padding: 1em;
+}
+
+.title-services {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.service {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 25vh;
+    width: 40vw;
+    margin: 0.5em;
+    background-color: var(--accent-color);
+    border-radius: 2rem;
+    padding: 1em;
+}
+
+.subtitle-services {
+    font-size: 1.5em;
+    margin-bottom: 0.1em;
+}
+
+.service:nth-child(2n+1) {
+    align-self: flex-end;
+}
+.service:nth-child(2n+1) h3 {
+    text-align: right;
+}
+.service:nth-child(2n+1) p {
+    text-align: right;
+}
+
+.desc-service {
+    font-size: 1em;
+    justify-self: flex-end;
+}

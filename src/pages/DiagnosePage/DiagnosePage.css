@@ -6,9 +6,13 @@
 
 .search-box {
     border: 2px solid var(--accent-color);
-    margin: 1rem;
+    margin: 2rem;
+    padding: 1rem;
     border-radius: 2rem;
     background-color: var(--primary-color);
+    height: 60vh;
+    min-height: 20rem;
+    
 }
 
 .search-title {
@@ -17,4 +21,6 @@
     color: var(--accent-color);
     font-size: 2.2rem;
 }
+
+
 

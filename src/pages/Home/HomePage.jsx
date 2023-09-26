@@ -1,7 +1,17 @@
+import Footer from "../../components/FooterSection/Footer"
+import HeroSection from "../../components/HeroSection/HeroSection"
+import HowItWorksSection from "../../components/HowItWorksSection/HowItWorksSection"
+import ServiceSection from "../../components/ServiceSection/ServiceSection"
+
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <>
+      <HeroSection />
+      <ServiceSection />
+      <HowItWorksSection />
+      <Footer />
+    </>
   )
 }
 

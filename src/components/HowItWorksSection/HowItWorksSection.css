@@ -1,0 +1,44 @@
+@import '../../variables.css';
+
+* {
+    box-sizing: border-box;
+}
+.how-it-works-section {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    border-bottom: 0.1rem solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 0.5em;
+}
+
+.steps-howitworks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, 1fr); /* Two rows */
+    gap: 3em 1em;
+    margin: 0 auto; /* Adjust gap as needed */
+}
+
+.step {
+    height: 30vh;
+    width: 35vw;
+    margin: 0.5em;
+    border: 0.2em solid var(--primary-color);
+    border-radius: 2rem;
+    padding: 0.5em;
+}
+
+.title-howitworks {
+    color: var(--primary-color);
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1em;
+}
+
+
+.subtitle-howitworks {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}

@@ -1,21 +1,43 @@
+@import "../../variables.css";
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .doctor-search {
-    display: flex;
-    flex-flow: column wrap;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    gap: 1.5vh
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2.5vh;
+  border: 2px solid var(--accent-color);
+  margin: 2em 3em;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: var(--primary-color);
+  height: 30vh;
+  min-height: 20rem;
+  justify-content: center;
+  align-items: center;
 }
 
 input[type="text"] {
-    padding: 0.5rem;
-    border-radius: .5rem;
+  padding: 0.5em;
+  height: 3rem;
+  width: 70vw;
+  border-radius: 2rem;
 }
 
 .submit-doctor {
-    height: 5vh;
-    border-radius: 0.5rem;
+  height: 3rem;
+  width: 70vw;
+  border-radius: 2rem;
+  color: var(--primary-color);
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.doctor-title {
+  /* margin: 0.5rem; */
+  /* padding: 0.5rem; */
+  color: var(--accent-color);
+  font-size: 2.2rem;
 }

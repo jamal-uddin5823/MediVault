@@ -1,0 +1,46 @@
+@import '../../variables.css';
+
+* {
+    box-sizing: border-box;
+}
+
+.footer {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    padding: 0.5em;
+}
+
+.footer-desc {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.title-footer {
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.subtitle-footer {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 0.25em;
+    text-align: center;
+}
+
+.link-title-footer {
+    font-size: 1.2em;
+}
+
+.link-footer {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 0.75em;
+}
+
+.footer-bottom {
+    font-size: 0.5em;
+    text-align: right;
+}
