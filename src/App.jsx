@@ -21,7 +21,7 @@ function App() {
           <Route path="/search" exact Component={SearchDoctorPage} />
           <Route path="/diagnose" exact Component={DiagnosePage} />
           <Route path="/about" exact Component={AboutPage} />
-          <Route path='/Medivault' element={<Navigate to='/' />}/>
+          <Route path='/MediVault' element={<Navigate to='/' />}/>
         </Routes>
     </Router>
     </>
