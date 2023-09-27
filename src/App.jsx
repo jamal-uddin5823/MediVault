@@ -15,7 +15,7 @@ import Heading from "./components/heading/Heading";
 function App() {
   return (
     <>
-      {/* <Router>
+      <Router>
         <Heading />
         <Navbar />
 
@@ -26,7 +26,7 @@ function App() {
           <Route path="/about" exact Component={AboutPage} />
           <Route path='/MediVault' element={<Navigate to='/' />}/>
         </Routes>
-    </Router> */}
+    </Router>
       <h1>Hello World</h1>
     </>
   );
