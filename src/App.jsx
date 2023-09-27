@@ -27,7 +27,6 @@ function App() {
           <Route path='/MediVault' element={<Navigate to='/' />}/>
         </Routes>
     </Router>
-      <h1>Hello World</h1>
     </>
   );
 }
