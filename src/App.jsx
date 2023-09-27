@@ -1,18 +1,21 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route,Navigate} from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 import HomePage from "./pages/Home/HomePage";
 import SearchDoctorPage from "./pages/SearchDoctorPage/SearchDoctorPage";
-import DiagnosePage from "./pages/DiagnosePage/DiagnosePage"
+import DiagnosePage from "./pages/DiagnosePage/DiagnosePage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import Heading from "./components/heading/Heading";
-
-
 
 function App() {
   return (
     <>
-      <Router>
+      {/* <Router>
         <Heading />
         <Navbar />
 
@@ -23,7 +26,8 @@ function App() {
           <Route path="/about" exact Component={AboutPage} />
           <Route path='/MediVault' element={<Navigate to='/' />}/>
         </Routes>
-    </Router>
+    </Router> */}
+      <h1>Hello World</h1>
     </>
   );
 }
